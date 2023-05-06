@@ -4,3 +4,9 @@
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 /*=====================Restaurant_Nenu Style===================*/
+.navbar{
+    background-color: rgb(247, 119, 0);
+}
+#slider{
+    background-color: rgb(245, 46, 79);
+}
