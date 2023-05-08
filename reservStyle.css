@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+/*----------------container section------------------------*/
+.contener{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*--------------------------Menu section-------------------------*/
+.menu{
+    background-color: rgb(1, 29, 88);
+}
+.brand-logo  {
+    padding: 0 30px;
+}
+.brand-logo a{
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.brand-logo img{
+    width: 60px;
+    height: 60px;
+}
+.menu-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+}
+.menu-item a:hover {
+    background-color: rgb(250, 3, 65);
+}
+.food_container{
+    background-color: pink;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: content-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar{
+    /*display: none;*/
+}
+#header .address{
+    font-size: 20px;
+}
+.your-address{
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.add-box i{
+    font-size: 20px;
+}
+.util i, .user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border :1px solid crimson;
+    padding: 8px 16px;
+    color:crimson;
+    border-radius: 20px;
+    cursor: pointer ;
+}
+.util i:active{
+    color: white;
+    background-color: crimson;
+}
+#food-items{
+
+}
+#Biryani, #paneer, #chicken, #vegetable, #chinese, #south-indian{
+    margin-top: 40px; 
+}
+#paneer #item-card, #vegetable #item-card{
+     background-color: rgb(128,253,18);
+}
+#chinese #item-card, #couth-indian #item-card {
+    background-color: rgb(221, 243, 243);
+}
+#category-name, .item-menu{
+    margin: 10px;
+    font-size: 35px;
+    color: coral;
+}
+#item-card{
+    width: 180px;
+    height: 220px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(253,221,226);
+    cursor: pointer;
+    transition-timing-function: 0.5s all ease-in-out ;
+}
+#item-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition:0.5s all ease-in-out ;
+}
+.cart{
+    background-color: lavender;
+}
