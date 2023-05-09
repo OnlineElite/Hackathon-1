@@ -206,7 +206,7 @@ body {
 }
 
 #item-card img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 #item-name {
@@ -276,7 +276,7 @@ body {
     height: 50px;
     border-radius: 50%;
 }
-#list-name{
+.list-name{
     font-size: 20px;
     margin: 0 10px;
     text-transform: capitalize;

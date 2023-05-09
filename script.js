@@ -14,7 +14,7 @@ const foodItem = [
         category: 'Burger',
         rating: 4.3,
         price: 15,
-        img: 'images/slide-2.png',
+        img: 'images/slide-1.png',
         quantity: 1
     },
     {
@@ -23,7 +23,7 @@ const foodItem = [
         category: 'Burger',
         rating: 4.3,
         price: 18,
-        img: 'images/slide-3.png',
+        img: 'images/slide-1.png',
         quantity: 1
     },
     {
@@ -32,7 +32,7 @@ const foodItem = [
         category: 'Burger',
         rating: 4.3,
         price: 15,
-        img: 'images/slide-4.png',
+        img: 'images/slide-1.png',
         quantity: 1
     },
     {
@@ -50,38 +50,12 @@ const foodItem = [
         category: 'Burger',
         rating: 4.3,
         price: 12,
-        img: 'images/slide-2.png',
-        quantity: 1
-    },
-    /*{
-        id: 7,
-        name: 'Kashmiri Burger',
-        category: 'Burger',
-        rating: 4.3,
-        price: 13,
-        img: 'images/slide-3.png',
-        quantity: 1
-    },
-    {
-        id: 8,
-        name: 'Memoni Burger',
-        category: 'Burger',
-        rating: 4.3,
-        price: 20,
-        img: 'images/slide-4.png',
-        quantity: 1
-    },
-    {
-        id: 9,
-        name: 'Mughlai Burger',
-        category: 'Burger',
-        rating: 4.3,
-        price: 15,
         img: 'images/slide-1.png',
         quantity: 1
-    },*//*--------------------------------------------------------------------------*/
+    },
+    /*--------------------------------------------------------------------------*/
     {
-        id: 10,
+        id: 7,
         name: 'Chicken Roast',
         category: 'chicken',
         rating: 4.3,
@@ -90,52 +64,52 @@ const foodItem = [
         quantity: 1
     },
     {
-        id: 11,
+        id: 8,
         name: 'Chicken Curry',
         category: 'chicken',
         rating: 4.3,
         price: 10,
-        img: 'images/slide-3.png',
+        img: 'images/slide-2.png',
         quantity: 1
     },
     {
-        id: 12,
+        id: 9,
         name: 'Chicken Do Pyaza',
         category: 'chicken',
         rating: 4.3,
         price: 14,
-        img: 'images/slide-4.png',
+        img: 'images/slide-2.png',
         quantity: 1
     },
     {
-        id: 13,
+        id: 10,
         name: 'Chicken Masala',
         category: 'chicken',
         rating: 4.3,
         price: 12,
-        img: 'images/slide-1.png',
+        img: 'images/slide-2.png',
         quantity: 1
     },
     {
-        id: 14,
+        id: 11,
         name: 'Handi Chicken',
         category: 'chicken',
         rating: 4.3,
         price: 17,
-        img: 'images/slide-4.png',
+        img: 'images/slide-2.png',
         quantity: 1
     },
     {
-        id: 15,
+        id: 12,
         name: 'Murgh Musallam',
         category: 'chicken',
         rating: 4.3,
         price: 20,
-        img: 'images/slide-1.png',
+        img: 'images/slide-2.png',
         quantity: 1
     },
     {
-        id: 16,
+        id: 13,
         name: 'Matar chicken',
         category: 'chicken',
         rating: 4.3,
@@ -145,7 +119,7 @@ const foodItem = [
         /*--------------------------------------------------------------------------*/
     },
     {
-        id: 17,
+        id: 14,
         name: 'Palak platter',
         category: 'platter',
         rating: 4.3,
@@ -154,118 +128,110 @@ const foodItem = [
         quantity: 1
     },
     {
-        id: 18,
+        id: 15,
         name: 'platter Butter Masala',
         category: 'platter',
         rating: 4.3,
         price: 15,
-        img: 'images/slide-4.png',
+        img: 'images/slide-3.png',
         quantity: 1
 
     },
     {
-        id: 19,
+        id: 16,
         name: 'platter Do Pyaza',
         category: 'platter',
         rating: 4.3,
         price: 12,
-        img: 'images/slide-1.png',
+        img: 'images/slide-3.png',
         quantity: 1
 
     },
     {
-        id: 20,
+        id: 17,
         name: 'Hyderabadi platter',
         category: 'platter',
         rating: 4.3,
         price: 8,
-        img: 'images/slide-2.png',
+        img: 'images/slide-3.png',
         quantity: 1
     },
     {
-        id: 21,
+        id: 18,
         name: 'platter Lababdar',
         category: 'platter',
         rating: 4.3,
         price: 7,
         img: 'images/slide-3.png',
         quantity: 1
-    },/*
+    },
+    /*--------------------------------------------------------------------------------*/
     {
-        id: 22,
-        name: 'Shahi Paneer',
-        age: '32',
-        category: 'paneer',
-        rating: 4.3,
-        price: 5,
-        img: 'images/slide-4.png',
-        quantity: 1
-    },*//*--------------------------------------------------------------------------------*/
-    {
-        id: 23,
+        id: 19,
         name: 'Navratan Korma',
         category: 'vegetable',
         rating: 4.3,
         price: 8,
-        img: 'images/slide-1.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 24,
+        id: 20,
         name: 'Veg Jalfrezi',
         category: 'vegetable',
         rating: 4.3,
         price: 7,
-        img: 'images/slide-2.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 25,
+        id: 21,
         name: 'Veg Biryani',
         category: 'vegetable',
         rating: 4.3,
         price: 5,
-        img: 'images/slide-3.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 26,
+        id: 22,
         name: 'Veg Curry',
         category: 'vegetable',
         rating: 4.3,
         price: 7,
-        img: 'images/slide-4.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 27,
+        id: 23,
         name: 'Veg Kolhapur',
         category: 'vegetable',
         rating: 4.3,
         price: 10,
-        img: 'images/slide-1.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 28,
+        id: 24,
         name: 'Veg Masala',
         category: 'vegetable',
         rating: 4.3,
         price: 4,
-        img: 'images/slide-2.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
     },
     {
-        id: 29,
+        id: 25,
         name: 'Veg Pakora',
         category: 'vegetable',
         rating: 4.3,
         price: 4,
-        img: 'images/slide-3.png',
+        img: 'images/slideHamberger.png',
         quantity: 1
-    },/*--------------------------------------------------------------------------*/
+    },
+    /*--------------------------------------------------------------------------*/
     {
-        id: 30,
+        id: 26,
         name: 'Momos',
         category: 'pizza',
         rating: 4.3,
@@ -274,34 +240,34 @@ const foodItem = [
         quantity: 1
     },
     {
-        id: 31,
+        id: 27,
         name: 'Chicken Manchurian',
         category: 'pizza',
         rating: 4.3,
         price: 7,
-        img: 'images/slide-1.png',
+        img: 'images/slide-4.png',
         quantity: 1
     },
     {
-        id: 32,
+        id: 28,
         name: 'Chili Chicken',
         category: 'pizza',
         rating: 4.3,
         price: 5,
-        img: 'images/slide-2.png',
+        img: 'images/slide-4.png',
         quantity: 1
     },
     {
-        id: 33,
+        id: 29,
         name: 'Chowmein',
         category: 'pizza',
         rating: 4.3,
         price: 16,
-        img: 'images/slide-3.png',
+        img: 'images/slide-4.png',
         quantity: 1
     },
     {
-        id: 34,
+        id: 30,
         name: 'Spring Roll',
         category: 'pizza',
         rating: 4.3,
@@ -310,80 +276,72 @@ const foodItem = [
         quantity: 1
     },
     {
-        id: 35,
+        id: 31,
         name: 'Szechuan Chicken',
         category: 'pizza',
         rating: 4.3,
         price: 10,
-        img: 'images/slide-1.png',
+        img: 'images/slide-4.png',
         quantity: 1
-    },/*
+    },
+    /*-----------------------------------------------------------------------*/
+    {
+        id: 32,
+        name: 'Butter Masala Dosa',
+        category: 'kingsBurger',
+        rating: 4.3,
+        price: 18,
+        img: 'images/slideSalad.png',
+        quantity: 1
+    },
+    {
+        id: 33,
+        name: 'Idli',
+        category: 'kingsBurger',
+        rating: 4.3,
+        price: 20,
+        img: 'images/slideSalad.png',
+        quantity: 1
+    },
+    {
+        id: 34,
+        name: 'Butter Masala Dosa',
+        category: 'kingsBurger',
+        rating: 4.3,
+        price: 18,
+        img: 'images/slideSalad.png',
+        quantity: 1
+    },
+    {
+        id: 35,
+        name: 'Idli',
+        category: 'kingsBurger',
+        rating: 4.3,
+        price: 20,
+        img: 'images/slideSalad.png',
+        quantity: 1
+    },
     {
         id: 36,
-        name: 'Fried Rice',
-        category: 'chinese',
+        name: 'Butter Masala Dosa',
+        category: 'kingsBurger',
         rating: 4.3,
-        price: 8,
-        img: 'images/slide-2.png',
+        price: 18,
+        img: 'images/slideSalad.png',
         quantity: 1
-    },*//*-----------------------------------------------------------------------*/
+    },
     {
         id: 37,
-        name: 'Butter Masala Dosa',
-        category: 'kingsBurger',
-        rating: 4.3,
-        price: 18,
-        img: 'images/slide-3.png',
-        quantity: 1
-    },
-    {
-        id: 38,
         name: 'Idli',
         category: 'kingsBurger',
         rating: 4.3,
         price: 20,
-        img: 'images/slide-4.png',
-        quantity: 1
-    },
-    {
-        id: 39,
-        name: 'Butter Masala Dosa',
-        category: 'kingsBurger',
-        rating: 4.3,
-        price: 18,
-        img: 'images/slide-3.png',
-        quantity: 1
-    },
-    {
-        id: 40,
-        name: 'Idli',
-        category: 'kingsBurger',
-        rating: 4.3,
-        price: 20,
-        img: 'images/slide-4.png',
-        quantity: 1
-    },
-    {
-        id: 41,
-        name: 'Butter Masala Dosa',
-        category: 'kingsBurger',
-        rating: 4.3,
-        price: 18,
-        img: 'images/slide-3.png',
-        quantity: 1
-    },
-    {
-        id: 42,
-        name: 'Idli',
-        category: 'kingsBurger',
-        rating: 4.3,
-        price: 20,
-        img: 'images/slide-4.png',
+        img: 'images/slideSalad.png',
         quantity: 1
     },
 ]
-console.log(foodItem)
-/*function displayItems() {
+
+function displayItems() {
     var burger = document.getElementById('Burger');
     var platter = document.getElementById('platter');;
     var chicken = document.getElementById('chicken');
@@ -435,7 +393,7 @@ console.log(foodItem)
         itemCard.appendChild(itemName);
         itemCard.appendChild(itemPrice);
 
-        biryani.appendChild(itemCard);
+        burger.appendChild(itemCard);
 
     })
 
@@ -516,7 +474,7 @@ console.log(foodItem)
         itemCard.appendChild(itemName);
         itemCard.appendChild(itemPrice);
 
-        paneer.appendChild(itemCard)
+        platter.appendChild(itemCard)
 
     })
 
@@ -557,7 +515,7 @@ console.log(foodItem)
         itemCard.appendChild(itemPrice);
 
 
-        vegetable.appendChild(itemCard)
+        salad.appendChild(itemCard)
 
     })
 
@@ -598,7 +556,7 @@ console.log(foodItem)
         itemCard.appendChild(itemPrice);
 
 
-        chinese.appendChild(itemCard)
+        pizza.appendChild(itemCard)
 
     })
 
@@ -638,7 +596,7 @@ console.log(foodItem)
         itemCard.appendChild(itemName);
         itemCard.appendChild(itemPrice);
 
-        southIndian.appendChild(itemCard)
+        kingsBurger.appendChild(itemCard)
 
     })
 }
@@ -876,4 +834,4 @@ function addAddress() {
     else {
         alert("Address not added")
     }
-}*/
+}
