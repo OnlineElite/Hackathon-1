@@ -426,6 +426,9 @@ p {
     margin: 5px;
     padding: 10px;
 }
+.box1 .optio:hover i{
+    color: red;
+}
 
 .box1 .optio i {
     color: rgb(153, 149, 149);
@@ -640,6 +643,9 @@ p {
     background-color: transparent;
     border-radius: 6px;
     border: 2px solid white;
+    color: white;
+    padding: 3px;
+    margin-right: 5px;
 }
 .footer button {
     width: 150px;
