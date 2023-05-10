@@ -72,30 +72,6 @@ body {
     border-bottom: 2px solid white;
 }
 
-/*.choose{
-    width: 100%;
-    display: flex;
-    padding:10px 1px 10px 15px;
-    position: fixed;
-    top: 50px;
-    z-index:1 ;
-}
-.choose .btn1{
-    border-right: 1px solid white;
-}
-
-.choose .btn {
-    width: 50%;
-    background-color: rgb(92, 140, 243);
-    color: crimson;
-    font-size: 18px;
-    font-weight: bold;
-
-}
-.choose .btn:active{
-    background-color: rgb(7, 248, 7);
-    color: white;
-}*/
 .your-address {
     border: 1px solid indianred;
     color: indianred;
@@ -224,7 +200,7 @@ body {
 }
 /*----------------cart section------------------------*/
 .cart{
-    background-color: rgb(125, 195, 241);
+    background-color: rgb(173, 240, 240);
     border-left: 2px solid white;
     padding-right: 30px;
     overflow: scroll;
@@ -235,6 +211,10 @@ body {
     padding-bottom: 10px;
     position: sticky;
     top: 0; 
+}
+.test-header .user{
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
 }
 .item-menu{
     margin: 0;
