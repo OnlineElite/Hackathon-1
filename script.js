@@ -10,7 +10,7 @@ const foodItem = [
     },
     {
         id: 2,
-        name: 'Hyderabadi Burger',
+        name: 'Hyder Burger',
         category: 'Burger',
         rating: 4.3,
         price: 15,
@@ -28,7 +28,7 @@ const foodItem = [
     },
     {
         id: 4,
-        name: 'Goan Fish Burger',
+        name: 'Fish Burger',
         category: 'Burger',
         rating: 4.3,
         price: 15,
@@ -74,7 +74,7 @@ const foodItem = [
     },
     {
         id: 9,
-        name: 'Chicken Do Pyaza',
+        name: 'Chicken Pyaza',
         category: 'chicken',
         rating: 4.3,
         price: 14,
@@ -129,7 +129,7 @@ const foodItem = [
     },
     {
         id: 15,
-        name: 'platter Butter Masala',
+        name: 'platter Butter',
         category: 'platter',
         rating: 4.3,
         price: 15,
@@ -139,7 +139,7 @@ const foodItem = [
     },
     {
         id: 16,
-        name: 'platter Do Pyaza',
+        name: 'platter Pyaza',
         category: 'platter',
         rating: 4.3,
         price: 12,
@@ -149,7 +149,7 @@ const foodItem = [
     },
     {
         id: 17,
-        name: 'Hyderabadi platter',
+        name: 'Hyder platter',
         category: 'platter',
         rating: 4.3,
         price: 8,
@@ -241,7 +241,7 @@ const foodItem = [
     },
     {
         id: 27,
-        name: 'Chicken Manchurian',
+        name: 'Chicken churian',
         category: 'pizza',
         rating: 4.3,
         price: 7,
@@ -287,7 +287,7 @@ const foodItem = [
     /*-----------------------------------------------------------------------*/
     {
         id: 32,
-        name: 'Butter Masala Dosa',
+        name: 'Butter Masala',
         category: 'kingsBurger',
         rating: 4.3,
         price: 18,
@@ -296,7 +296,7 @@ const foodItem = [
     },
     {
         id: 33,
-        name: 'Idli',
+        name: 'chicken burger',
         category: 'kingsBurger',
         rating: 4.3,
         price: 20,
@@ -305,7 +305,7 @@ const foodItem = [
     },
     {
         id: 34,
-        name: 'Butter Masala Dosa',
+        name: 'Butter Masala',
         category: 'kingsBurger',
         rating: 4.3,
         price: 18,
@@ -314,7 +314,7 @@ const foodItem = [
     },
     {
         id: 35,
-        name: 'Idli',
+        name: 'lamb burger',
         category: 'kingsBurger',
         rating: 4.3,
         price: 20,
@@ -323,7 +323,7 @@ const foodItem = [
     },
     {
         id: 36,
-        name: 'Butter Masala Dosa',
+        name: 'Butter Masala',
         category: 'kingsBurger',
         rating: 4.3,
         price: 18,
@@ -332,7 +332,7 @@ const foodItem = [
     },
     {
         id: 37,
-        name: 'Idli',
+        name: 'cheese burger',
         category: 'kingsBurger',
         rating: 4.3,
         price: 20,
@@ -351,7 +351,7 @@ function displayItems() {
 
     const burgerData = foodItem.filter((item) => item.category == 'Burger');
     const chickenData = foodItem.filter((item) => item.category == 'chicken');
-    const platterData = foodItem.filter((item) => item.category == 'paneer');
+    const platterData = foodItem.filter((item) => item.category == 'platter');
     const saladData = foodItem.filter((item) => item.category == 'vegetable');
     const pizzaData = foodItem.filter((item) => item.category == 'pizza');
     const kingsBurgerData = foodItem.filter((item) => item.category == 'kingsBurger');
@@ -370,7 +370,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -411,7 +411,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -451,7 +451,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -491,7 +491,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -532,7 +532,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -573,7 +573,7 @@ function displayItems() {
         star.innerText = ' ' + item.rating;
 
         var heart = document.createElement('i');
-        heart.setAttribute('class', 'fa fa-heart-o add-to-cart');
+        heart.setAttribute('class', 'fa fa-heart add-to-cart');
         heart.setAttribute('id', item.id)
 
         cardTop.appendChild(star);
@@ -607,7 +607,7 @@ const vegData = [...new Map(foodItem.map(item => [item['category'], item])).valu
 console.log(vegData);
 
 function selectTaste() {
-    var categoryList = document.getElementById('category-list');
+    var categoryList = document.getElementById('category');
 
     vegData.map(item => {
         console.log(item)
@@ -627,7 +627,7 @@ function selectTaste() {
 
         var cloneListCard = listCard.cloneNode(true);
         categoryList.appendChild(listCard);
-        document.querySelector('.category-header').appendChild(cloneListCard)
+        document.querySelector('.test-header').appendChild(cloneListCard)
     })
 }
 selectTaste();
@@ -652,10 +652,10 @@ function addToCart() {
         alert("Added to cart!");
     }
 
+    document.getElementById('cart-plus'/*m-cart-plus*/).innerText =
+        ' ' + cartData.length;
     document.getElementById('cart-plus').innerText =
         ' ' + cartData.length + ' Items';
-    document.getElementById('m-cart-plus').innerText =
-        ' ' + cartData.length;
     totalAmount();
     cartItems();
 }
@@ -736,11 +736,11 @@ function decrementItem() {
         document.getElementById(decObj.id).classList.remove('toggle-heart')
         cartData.splice(ind, 1);
         document.getElementById('cart-plus').innerText = ' ' + cartData.length + ' Items';
-        document.getElementById('m-cart-plus').innerText = ' ' + cartData.length;
+        document.getElementById('cart-plus'/*m-cart-plus*/).innerText = ' ' + cartData.length;
         if (cartData.length < 1 && flag) {
             document.getElementById('food-items').classList.toggle('food-items');
             document.getElementById('category-list').classList.toggle('food-items');
-            document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
+            document.getElementById('cart-plus'/*m-cart-plus*/).classList.toggle('cart-toggle'/*m-cart-toggle*/)
             document.getElementById('cart-page').classList.toggle('cart-toggle');
             document.getElementById('category-header').classList.toggle('toggle-category');
             document.getElementById('checkout').classList.toggle('cart-toggle');
@@ -753,6 +753,7 @@ function decrementItem() {
     cartItems()
 }
 
+
 function totalAmount() {
     var sum = 0;
     cartData.map(item => {
@@ -764,7 +765,7 @@ function totalAmount() {
 }
 
 document.getElementById('cart-plus').addEventListener('click', cartToggle);
-document.getElementById('m-cart-plus').addEventListener('click', cartToggle);
+document.getElementById('cart-plus'/*m-cart-plus*/).addEventListener('click', cartToggle);
 
 var flag = false;
 function cartToggle() {
@@ -772,7 +773,7 @@ function cartToggle() {
         document.getElementById('food-items').classList.toggle('food-items');
         document.getElementById('category-list').classList.toggle('food-items');
         document.getElementById('category-header').classList.toggle('toggle-category');
-        document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
+        document.getElementById('cart-plus'/*m-cart-plus*/).classList.toggle('cart-toggle'/*m-cart-toggle*/)
         document.getElementById('cart-page').classList.toggle('cart-toggle');
         document.getElementById('checkout').classList.toggle('cart-toggle');
         flag = true;
@@ -782,8 +783,6 @@ function cartToggle() {
         alert("Currently no item in cart!");
     }
 }
-
-
 
 window.onresize = window.onload = function () {
     var size = window.screen.width;
@@ -824,7 +823,7 @@ function addEvents() {
 
 document.getElementById('add-address').addEventListener('click', addAddress);
 
-document.getElementById('m-add-address').addEventListener('click', addAddress);
+document.getElementById('add-address'/*m-add-address*/).addEventListener('click', addAddress);
 
 function addAddress() {
     var address = prompt('Enter your address', '');
