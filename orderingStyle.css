@@ -99,7 +99,7 @@ body {
     cursor: pointer;
 }
 .food-items{
-                          /*---------------------DISPLAY--------------------*/ 
+    
 }
 
 .util i:active, .user i:active {
@@ -202,9 +202,9 @@ body {
 .cart{
     background-color: rgb(173, 240, 240);
     border-left: 2px solid white;
-    padding-right: 30px;
+    padding-right: 8px;
+    padding-left: 8px;
     overflow: scroll;
-
 }
 .test-header{
     padding-top: 12px;
@@ -265,10 +265,10 @@ body {
 }
 /*-------------------Order section------------*/
 #category{
-    display: none;                                /*---------------------DISPLAY------------------*/
+    display: none;        
 }
 .cart-toggle{
-    display: none;
+    display: none; 
 }
 #cart-page{
     background-color:white ;

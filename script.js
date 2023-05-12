@@ -770,9 +770,9 @@ document.getElementById('cart-plus'/*m-cart-plus*/).addEventListener('click', ca
 var flag = false;
 function cartToggle() {
     if (cartData.length > 0) {
-        document.getElementById('food-items').classList.toggle('food-items');
-        document.getElementById('category-list').classList.toggle('food-items');
-        document.getElementById('category-header').classList.toggle('toggle-category');
+        document.getElementById('food-items').style.display = "none";
+        document.getElementById('category').style.display = "none";
+        document.getElementById('category-header').style.display = "none"
         document.getElementById('cart-plus'/*m-cart-plus*/).classList.toggle('cart-toggle'/*m-cart-toggle*/)
         document.getElementById('cart-page').classList.toggle('cart-toggle');
         document.getElementById('checkout').classList.toggle('cart-toggle');
